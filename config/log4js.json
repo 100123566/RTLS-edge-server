@@ -1,0 +1,23 @@
+{
+  "appenders": {
+    "console": {
+      "type": "console"
+    },
+    "logFile": {
+      "type": "file",
+      "filename": "/home/pi/Log/edge-server-log.txt",
+      "maxLogSize": 10485760,
+      "backups": 10
+    },
+    "errorFile": {
+    	"type": "file",
+    	"filename": "/home/pi/Log/edge-server-error.txt",
+      "maxLogSize": 10485760,
+      "backups": 10
+    }
+  },
+  "categories": {
+  	"error": { "appenders": ["errorFile", "console"], "level": "error"},
+    "default": { "appenders": ["logFile", "console"], "level": "info" }
+  }
+}

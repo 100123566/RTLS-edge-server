@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rexpfd>
+    <destination path="DESKTOP-B002QPO.RaspberryPi:/home/pi/RTLS-edge-server"/>
+    <options createDirectoryStructure="false" createSelectedOnly="true" descriptionFilePath="/RTLS-edge-server/RTLS.rexpfd" overWriteExistingFiles="false" reviewSynchronize="true" saveSettings="true"/>
+    <selectedElements>
+        <project name="RTLS-edge-server"/>
+    </selectedElements>
+</rexpfd>
